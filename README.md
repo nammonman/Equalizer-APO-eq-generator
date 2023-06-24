@@ -18,4 +18,4 @@ please turn down your volume first then you can make it louder after i beg you p
 5. click the "copy param text to clipboard" button to calculate and save the eq text to clipboard
 6. paste text in Equalizer APO
 7. if the eq parameters look too crazy try reducing the "eq intensity" with the slider and do step 5 and 6 again
-8. hopefully after this your speakers will sound better and not blow up! (very inspiring confidence)
+8. hopefully after this your speakers will sound better and not blow up! (inspiring confidence!)
