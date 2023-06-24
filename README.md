@@ -7,6 +7,7 @@ this (not very good lol) python script reads an audio recording of your speaker 
 ## I cannot garuntee that this will work perfectly and not destroy your computer and/or speakers.
 ### I do not hold any responsibility to any broken computers/speakers or any actual hearing problems that may occur after using this script.
 please turn down your volume first then you can make it louder after i beg you pls
+also be ready to mute the speaker 
 #
 
 # How To Use?
