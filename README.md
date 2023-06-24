@@ -10,7 +10,7 @@ please turn down your volume first then you can make it louder after i beg you p
 #
 
 # How To Use?
-0. adjust volume and delay before next step (to not play the audio too loudly or if you want to have prep time to be quiet)
+0. adjust volume and delay before next step (to not play the audio too loudly/quietly or if you want to have prep time to be quiet)
 1. click the blue "play sine test" button and record the audio with your phone or a microphone (perferably in a quiet environment)
 2. read the wav file from the recording with "open wav file" button
 3. click the point exactly at the end of the first "beep" that you heard
