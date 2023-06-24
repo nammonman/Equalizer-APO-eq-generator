@@ -2,9 +2,9 @@
 ### V0.1
 this (not very good lol) python script reads an audio recording of your speaker to calculate an eq profile for the Equalizer APO application to (hopefully) improve the sound.
 
-### DOWNLOAD AND USE THIS SCRIPT AT YOUR OWN RISK!!
+# DOWNLOAD AND USE THIS SCRIPT AT YOUR OWN RISK!!
 ## I cannot garuntee that this will work perfectly and not destroy your computer and/or speakers.
-# I do not hold any responsibility to any broken computers/speakers or any actual hearing problems that may occur after using this script.
+### I do not hold any responsibility to any broken computers/speakers or any actual hearing problems that may occur after using this script.
 please turn down your volume first then you can make it louder after i beg you pls
 
 # How To Use?
