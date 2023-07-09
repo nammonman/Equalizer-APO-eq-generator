@@ -29,7 +29,7 @@ def play_sine(amplitude):
     num_samples = int(sample_rate * duration)
     t = np.linspace(0, duration, num_samples, endpoint=False)
     initial_t = np.linspace(0, 1, num_samples, endpoint=False)
-    wave = np.sin(2 * math.pi * 440 * initial_t)*amplitude
+    wave = np.sin(2 * math.pi * 440 * initial_t)*amplitude*1.5
 
     for i in range(35,151,5):
         tempwave =  np.sin(2 * math.pi * i * t)*amplitude
