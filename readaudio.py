@@ -1,4 +1,3 @@
-import librosa
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io import wavfile
@@ -9,7 +8,7 @@ def save_trimmed_audio(filename, trimmed_audio, sample_rate):
 
 def trim_audio_section(filename):
     # Load the audio file
-    audio, sr = librosa.load(filename, sr=None)
+    sr, audio = wavfile.read(filename)
 
     # Compute the time array
     duration = len(audio) / sr
