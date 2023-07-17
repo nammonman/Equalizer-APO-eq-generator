@@ -72,7 +72,16 @@ def generate_eq_text():
     output_string = calculate_eq(segment_list,avg,bass_extension,intensity)
     pyperclip.copy(output_string)
 
+
+
 root = tk.Tk()
+tcl_library_path = root.tk.exprstring('$tcl_library')
+tk_library_path = root.tk.exprstring('$tk_library')
+
+# Set the TCL_LIBRARY environment variable
+os.environ["TCL_LIBRARY"] = tcl_library_path
+os.environ["TK_LIBRARY"] = tk_library_path
+
 root.title("speaker frequency normaliser thing")
 root.geometry(str(wt)+"x"+str(ht))
 
