@@ -4,8 +4,8 @@ this python script reads an audio recording of your speaker to calculate an eq p
 
 #
 # DOWNLOAD AND USE THIS SCRIPT AT YOUR OWN RISK!!
-## I cannot garuntee that this will work perfectly and not destroy your computer and/or speakers.
-### I do not hold any responsibility to any broken computers/speakers or any actual hearing problems that may occur after using this script.
+## Although I have already tested this program with my own equipment, I cannot garuntee that this will work perfectly and not destroy your computer and/or speakers.
+### I do not hold any responsibility to any broken computers/speakers or any hearing problems that may occur after using this program.
 please turn down your volume first then you can make it louder after i beg you pls
 == also be ready to mute the speaker ==
 #
@@ -30,3 +30,4 @@ intensity 100
 intensity 50
 ![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/437dcc65-6eeb-4072-9bea-7b320f50ac9a)
 
+ඞ <---- sus guy
