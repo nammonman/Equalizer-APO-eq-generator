@@ -11,15 +11,15 @@ please turn down your volume first then you can make it louder after i beg you p
 #
 
 # How To Use?
-1. adjust volume and delay before next step (to not play the audio too loudly/quietly or if you want to have prep time to be quiet)
-2. click the blue "play sine test" button and record the audio with your phone or a microphone (perferably in a quiet environment)
+1. adjust volume and delay to not play the test sound too loudly/quietly or if you want to have prep time to be quiet.
+2. click the blue "play sine test" button and record the audio with your phone or a microphone. (perferably in a quiet environment)
 3. for best results use a sound recording app with `NO AUTO GAIN CONTROL` mode [I used this to test the program.](https://play.google.com/store/apps/details?id=com.hardcodedjoy.soundrecorder)
-4. read the `.wav` file from the recording with "open wav file" button
-5. wait for the waveform window to appear then point and click at exactly at the end of the first "beep" that you heard
-6. adjust bass extension to your speakers' specification
-7. click the "copy param text to clipboard" button to calculate and save the eq text to clipboard
-8. paste text in Equalizer APO
-9. if the eq parameters look too crazy try reducing the "eq intensity" with the slider and do step 5 and 6 again
+4. read the `.wav` file from the recording with "open wav file" button.
+5. wait for the waveform window to appear then point and click exactly at the end of the first "beep" that played.
+6. adjust the bass extension to your speakers' specification.
+7. click the "copy param text to clipboard" button to calculate the EQ and save the text to clipboard.
+8. paste text in Equalizer APO.
+9. if the EQ parameters look too crazy, try reducing the "eq intensity" with the slider and do step 7 and 8 again. No need to re-record the sound.
 10. hopefully after this your speakers will sound better and not blow up! (inspiring confidence!)
 
 # Images
