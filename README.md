@@ -23,11 +23,12 @@ please turn down your volume first then you can make it louder after i beg you p
 10. hopefully after this your speakers will sound better and not blow up! (inspiring confidence!)
 
 # Images
+frontend
 ![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/529918e6-13c3-42ea-90ac-7f415d40b44d)
+the part where you click the waveform
 ![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/c9dfa2ec-86df-4089-bc08-2d5dfcd8a0ad)
-intensity 100
+result at intensity 100
 ![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/90a25de4-43f6-4f49-a23f-0c551465e83f)
-intensity 50
+result at intensity 50
 ![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/437dcc65-6eeb-4072-9bea-7b320f50ac9a)
-
 ඞ <---- sus guy
