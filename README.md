@@ -6,7 +6,7 @@ this python script reads an audio recording of your speaker to calculate an eq p
 # DOWNLOAD AND USE THIS SCRIPT AT YOUR OWN RISK!!
 ## Although I have already tested this program with my own equipment, I cannot garuntee that this will work perfectly and not destroy your computer and/or speakers.
 ### I do not hold any responsibility to any broken computers/speakers or any hearing problems that may occur after using this program.
-please turn down your volume first then you can make it louder after i beg you pls
+please turn down your volume first then you can make it louder after i beg you pls\
 == also be ready to mute the speaker ==
 #
 
@@ -23,12 +23,12 @@ please turn down your volume first then you can make it louder after i beg you p
 10. hopefully after this your speakers will sound better and not blow up! (inspiring confidence!)
 
 # Images
-frontend
-![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/529918e6-13c3-42ea-90ac-7f415d40b44d)
-the part where you click the waveform
-![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/c9dfa2ec-86df-4089-bc08-2d5dfcd8a0ad)
-result at intensity 100
-![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/90a25de4-43f6-4f49-a23f-0c551465e83f)
-result at intensity 50
-![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/437dcc65-6eeb-4072-9bea-7b320f50ac9a)
+frontend\
+![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/529918e6-13c3-42ea-90ac-7f415d40b44d)\
+the part where you click the waveform\
+![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/c9dfa2ec-86df-4089-bc08-2d5dfcd8a0ad)\
+result at intensity 100\
+![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/90a25de4-43f6-4f49-a23f-0c551465e83f)\
+result at intensity 50\
+![image](https://github.com/nammonman/Equalizer-APO-eq-generator/assets/110343092/437dcc65-6eeb-4072-9bea-7b320f50ac9a)\
 ඞ <---- sus guy
