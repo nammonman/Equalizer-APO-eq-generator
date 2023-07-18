@@ -1,6 +1,6 @@
 # Equalizer-APO-eq-generator
 ### V 0.1
-this python script reads an audio recording of your speaker to calculate an eq profile for the Equalizer APO application to (hopefully) improve the sound.
+this python script reads an audio recording from your speaker to calculate an eq profile for the Equalizer APO application to (hopefully) improve the sound of it!
 
 #
 # DOWNLOAD AND USE THIS SCRIPT AT YOUR OWN RISK!!
