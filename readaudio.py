@@ -1,14 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.io import wavfile
-
-def save_trimmed_audio(filename, trimmed_audio, sample_rate):
-    # Save the trimmed audio as a WAV file
-    wavfile.write(filename, sample_rate, trimmed_audio)
+import soundfile as sf
 
 def trim_audio_section(filename):
     # Load the audio file
-    sr, audio = wavfile.read(filename)
+    audio, sr = sf.read(filename)
+    print("reading waveform from "+filename+"\n")
 
     # Compute the time array
     duration = len(audio) / sr
@@ -26,26 +23,16 @@ def trim_audio_section(filename):
     # Prompt the user to select the start and end points for trimming
     points = plt.ginput(n=1, show_clicks=True)
     plt.close()
-    
+    print("trim at "+str(points[0][0])+'\n')
+
     # Extract the selected section
     start_time, end_time = points[0][0], points[0][0]+11.6
     start_index = int(start_time * sr)
     end_index = int(end_time * sr)
     trimmed_audio = audio[start_index:end_index]
 
-    # Plot the trimmed section
-    '''
-    plt.figure(figsize=(10, 4))
-    t_trimmed = np.linspace(start_time, end_time, len(trimmed_audio))
-    plt.plot(t_trimmed, trimmed_audio)
-    plt.xlabel('Time (s)')
-    plt.ylabel('Amplitude')
-    plt.title('Trimmed Audio Section')
-    plt.show()
-    '''
     # Save the trimmed audio as a WAV file
-    save_trimmed_audio('trimmed_audio.wav', trimmed_audio, sr)
-    
+    sf.write('trimmed_audio.wav', trimmed_audio, sr)
 
     return trimmed_audio
 

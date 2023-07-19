@@ -1,29 +1,16 @@
-import pyaudio
+import sounddevice as sd
 import numpy as np
 import math
 
-
 def sine_sound(wave):
     # Set up parameters
-    sample_rate = 44100
-
-    # Open a new audio stream
-    p = pyaudio.PyAudio()
-    stream = p.open(format=pyaudio.paFloat32,
-                    channels=1,
-                    rate=sample_rate,
-                    output=True)
-
-    # Play the sine wave
-    stream.write(wave.astype(np.float32).tobytes())
-
-    # Close the audio stream
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
-
+    sr = 44100
+    sd.play(wave, sr)
+    sd.wait()
+    print("test tone has finished playing\n")
 
 def play_sine(amplitude):
+    # generate sine wave
     duration=0.2
     sample_rate = 44100
     num_samples = int(sample_rate * duration)
@@ -54,5 +41,6 @@ def play_sine(amplitude):
     for i in [15000,18000]:
         tempwave =  np.sin(2 * math.pi * i * t)*amplitude
         wave = np.concatenate((wave, tempwave))
-
+        
+    # call function to play the sine wave
     sine_sound(wave)

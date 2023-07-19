@@ -8,21 +8,24 @@ import atexit
 import os
 import pyperclip
 
+# Having global variables in a Python program is generally not recommended but if it works it works lol
 wt = 480
 ht = 300
 volume = 0.3
 bass_extension = 35
 wait = 1
-intensity = float(1.00)
+intensity = float(0.75)
 
 def delete_file_on_exit(file_path):
     # remove temporary audio file used to calculate parameters
     def cleanup():
         if os.path.exists(file_path):
             os.remove(file_path)
+            print("removed temp files\n")
         try:
             if root.winfo_exists():
                 root.destroy()
+                print("successful exit")
         except tk.TclError:
             pass
     atexit.register(cleanup)
@@ -32,7 +35,10 @@ delete_file_on_exit(file_path)
 
 def button_pressed():
     playSine.config(state=tk.DISABLED)
-    time.sleep(wait)  
+    for i in range(wait):
+        print("test tone will be played in " +str(wait-i)+'\n')
+        time.sleep(1)
+    print("test tone will be played in NOW!\n")  
     play_sine(volume)
     playSine.config(state=tk.NORMAL)  
 
@@ -72,8 +78,6 @@ def generate_eq_text():
     output_string = calculate_eq(segment_list,avg,bass_extension,intensity)
     pyperclip.copy(output_string)
 
-
-
 root = tk.Tk()
 tcl_library_path = root.tk.exprstring('$tcl_library')
 tk_library_path = root.tk.exprstring('$tk_library')
@@ -86,7 +90,10 @@ root.title("speaker frequency normaliser thing")
 root.geometry(str(wt)+"x"+str(ht))
 
 #buttons
-openFile = tk.Button(root, text="open wav file", pady= 10, bg= "white", command=upload_audio_file)
+quit_button = tk.Button(root, text="Quit", bg="red", fg="white", command=lambda: exit())
+quit_button.pack()
+
+openFile = tk.Button(root, text="open audio file", pady= 10, bg= "white", command=upload_audio_file)
 openFile.place(x=wt/4, y=ht/4, anchor="center")
 
 createFile = tk.Button(root, text="copy param text to clipboard", pady= 10, bg= "white", command=generate_eq_text)
@@ -117,7 +124,7 @@ label3 = tk.Label(root, text="eq intensity")
 label3.place(x=3*wt/4, y=2*ht/4-55, anchor="center")
 
 slider = tk.Scale(root, from_=0, to=100, orient=tk.HORIZONTAL, command=intensity_slider_change)
-slider.set(100)
+slider.set(75)
 slider.place(x=3*wt/4, y=2*ht/4-25, anchor="center")
 
 # volume
