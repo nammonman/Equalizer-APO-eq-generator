@@ -13,7 +13,7 @@ please turn down your volume first then you can make it louder after i beg you p
 #
 
 # How To Use?
-1. adjust volume and delay to not play the test sound too loudly/quietly or if you want to have prep time to be quiet.
+1. adjust volume and delay to play the test sound not too loudly/quietly or if you want to have prep time to be quiet.
 2. click the blue "play sine test" button and record the audio with your phone or a microphone. (perferably in a quiet environment)
 3. for best results use a sound recording app with `NO AUTO GAIN CONTROL` mode [I used this to test the program.](https://play.google.com/store/apps/details?id=com.hardcodedjoy.soundrecorder)
 4. read the audio file from the recording with "open audio file" button.
